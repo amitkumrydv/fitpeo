@@ -4,7 +4,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
-public class RevenueCalculatorPageObject {
+import com.fitPeo.baseClass.BaseClass;
+
+public class RevenueCalculatorPageObject extends BaseClass {
 
 	public RevenueCalculatorPageObject(WebDriver driver) {
 	

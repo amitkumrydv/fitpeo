@@ -2,9 +2,12 @@ package com.fitPeo.pageObject;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
-public class HomePageObject {
+import com.fitPeo.baseClass.BaseClass;
+
+public class HomePageObject extends BaseClass{
 
 	public HomePageObject(WebDriver driver) {
 	
@@ -13,7 +16,15 @@ public class HomePageObject {
 	}
 	
 
-	By homepage = By.xpath("//a[@href='/home']//div[contains(text(),'Home')]");
+	By homepageElement = By.xpath("//a[@href='/home']//div[contains(text(),'Home')]");
 	
+	
+	public void navigateToHomePage() {
+		
+		WebElement homepage = driver.findElement(homepageElement);
+		
+		homepage.click();
+		
+	}
 
 }
