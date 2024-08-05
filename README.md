@@ -4,6 +4,7 @@ Completed Automation Tester Assignment 1
 
 Project Source code : https://github.com/amitkumrydv/fitpeo.git
 
+![image](https://github.com/user-attachments/assets/68bbcce6-f352-4e18-b3da-3bfb76acbe5e)
 
 
 
