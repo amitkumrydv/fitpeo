@@ -17,15 +17,15 @@ Project Source code : https://github.com/amitkumrydv/fitpeo.git
 
 Run the project Steps
 
-Need to download spring-boot tool IDE
-Set up the java version 11.0.20 jdk.
-Install TestNg in the spring-boot tool IDE
-Import the project from git ( https://github.com/amitkumrydv/fitpeo.git ).
-Maven Update.
-Maven clean.
-Maven Install
-Open the Test package → open test class → right click → run as TestNg
-You can run by ( Maven install and Maven Test ).
+1. Need to download spring-boot tool IDE
+2. Set up the java version 11.0.20 jdk.
+3. Install TestNg in the spring-boot tool IDE
+4. Import the project from git ( https://github.com/amitkumrydv/fitpeo.git ).
+5. Maven Update.
+6. Maven clean.
+7. Maven Install
+8. Open the Test package → open test class → right click → run as TestNg
+9. You can run by ( Maven install and Maven Test ).
 
 
 
