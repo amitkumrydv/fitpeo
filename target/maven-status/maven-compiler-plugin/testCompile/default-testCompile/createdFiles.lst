@@ -1,0 +1,7 @@
+com\fitPeo\pageObject\HomePageObject.class
+com\fitPeo\pageObject\RevenueCalculatorPageObject.class
+com\fitPeo\baseClass\BaseClass.class
+com\fitPeo\utility\ReadConfig.class
+fitPeo\fitPeo\AppTest.class
+com\fitPeo\testCase\HomePageTestCase.class
+com\fitPeo\testCase\SliderTest.class

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.fitPeo.testCase.SliderTest">
+        <methods>
+          <include name="lounchBrowser"/>
+          <include name="quit"/>
+          <include name="slider"/>
+        </methods>
+      </class> <!-- com.fitPeo.testCase.SliderTest -->
+      <class name="com.fitPeo.testCase.HomePageTestCase">
+        <methods>
+          <include name="lounchBrowser"/>
+          <include name="quit"/>
+          <include name="homePageNavigation"/>
+        </methods>
+      </class> <!-- com.fitPeo.testCase.HomePageTestCase -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
